@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav--link {
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+
+.header__nav--link:nth-last-child(1) {
+    padding-right: 10px;
+}
